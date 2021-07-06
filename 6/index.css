@@ -1,4 +1,60 @@
-body {
+.Top {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  z-index: 1;
+  margin-top: 30px;
+  outline: 1px dashed red;
+}
+
+.Top .Nav-item {
+  outline: 1px dashed red;
+  margin-left: 30px;
+}
+
+.Top .Title {
+  outline: 1px dashed red;
+  position: absolute;
+  left: 50%;
+}
+
+.Top .Title .Title-Image {
+  outline: 1px dashed red;
+  height: 22px;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.About {
+  outline: 1px dashed red;
+  width: 100%;
+  height: 100%;
+  display: block;
   background: pink;
+}
+
+.Studio {
+  outline: 1px dashed red;
+  width: 100%;
+  height: 100%;
+  background: aquamarine;
+}
+
+.Works {
+  outline: 1px dashed red;
+  width: 100%;
+  height: 100%;
+  background: burlywood;
+}
+
+.Contact {
+  outline: 1px dashed red;
+  width: 100%;
+  height: 100%;
+  background: cadetblue;
 }
 /*# sourceMappingURL=index.css.map */

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,24 @@
     <title>Document</title>
     <link rel="stylesheet" href="index.css" />
 </head>
+
 <body>
     <div class="Top">
-
+        <div class="About-Nav Nav-item" onclick="showAbout()">
+            About
+        </div>
+        <div class="Studio-Nav Nav-item" onclick="showStudio()">
+            Studio
+        </div>
+        <div class="Works-Nav Nav-item" onclick="showWorks()">
+            Works
+        </div>
+        <div class="Contact-Nav Nav-item" onclick="showContact()">
+            Contact
+        </div>
+        <div class="Title">
+            <img class="Title-Image" src="./image/logo-black.png"/>
+        </div>
     </div>
     <div class="About">
         About
@@ -24,4 +40,7 @@
         Contact
     </div>
 </body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="index.js"></script>
 </html>
