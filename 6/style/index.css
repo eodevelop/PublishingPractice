@@ -1,0 +1,93 @@
+.Container {
+  outline: 1px dashed red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+}
+
+.Container .Top {
+  outline: 1px dashed red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  width: 100%;
+  z-index: 1;
+}
+
+.Container .Top .Nav {
+  outline: 1px dashed red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 33%;
+}
+
+.Container .Top .Nav .Nav-item {
+  outline: 1px dashed red;
+  margin-left: 30px;
+}
+
+.Container .Top .Title {
+  outline: 1px dashed red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 33%;
+}
+
+.Container .Top .Title .Title-Image {
+  outline: 1px dashed red;
+  height: 22px;
+}
+
+.Container .Top .Void {
+  outline: 1px dashed red;
+  width: 33%;
+}
+
+.Container #About {
+  outline: 1px dashed red;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+.Container #Studio {
+  outline: 1px dashed red;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  background: aquamarine;
+}
+
+.Container #Works {
+  outline: 1px dashed red;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  background: burlywood;
+}
+
+.Container #Contact {
+  outline: 1px dashed red;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  background: cadetblue;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,22 @@
+.About-Container {
+  outline: 1px dashed blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.About-Container .Left {
+  outline: 1px dashed blue;
+  width: 50%;
+  background: cadetblue;
+}
+
+.About-Container .Right {
+  outline: 1px dashed blue;
+  width: 50%;
+  background: darkgray;
+}
+/*# sourceMappingURL=about.css.map */

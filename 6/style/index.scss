@@ -1,0 +1,69 @@
+.Container {
+    outline: 1px dashed red;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+    .Top {
+        outline: 1px dashed red;
+        display: flex;
+        position: absolute;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        width: 100%;
+        z-index: 1;
+
+        .Nav {
+            outline: 1px dashed red;
+            display: flex;
+            justify-content: flex-start;
+            width: 33%;
+
+            .Nav-item {
+                outline: 1px dashed red;
+                margin-left: 30px;
+            }
+        }
+
+        .Title {
+            outline: 1px dashed red;
+            display: flex;
+            justify-content: center;
+            width: 33%;
+
+            .Title-Image {
+                outline: 1px dashed red;
+                height: 22px;
+            }
+        }
+
+        .Void{
+            outline: 1px dashed red;
+            width: 33%;
+        }
+    }
+
+    #About {
+        outline: 1px dashed red;
+        flex-basis: 100%;
+    }
+
+    #Studio {
+        outline: 1px dashed red;
+        flex-basis: 100%;
+        background: aquamarine;
+    }
+
+    #Works {
+        outline: 1px dashed red;
+        flex-basis: 100%;
+        background: burlywood;
+    }
+
+    #Contact {
+        outline: 1px dashed red;
+        flex-basis: 100%;
+        background: cadetblue;
+    }
+}

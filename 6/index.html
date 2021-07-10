@@ -6,41 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="./style/default.css" />
+    <link rel="stylesheet" href="./style/about.css" />
 </head>
 
 <body>
-    <div class="Top">
-        <div class="About-Nav Nav-item" onclick="showAbout()">
-            About
+    <div class="Container">
+        <div class="Top">
+            <div class="Nav">
+                <div class="About-Nav Nav-item" onclick="showAbout()">
+                    About
+                </div>
+                <div class="Studio-Nav Nav-item" onclick="showStudio()">
+                    Studio
+                </div>
+                <div class="Works-Nav Nav-item" onclick="showWorks()">
+                    Works
+                </div>
+                <div class="Contact-Nav Nav-item" onclick="showContact()">
+                    Contact
+                </div>
+            </div>
+            <div class="Title">
+                <a href="./index.html">
+                    <img class="Title-Image" src="./image/logo-black.png" />
+                </a>
+            </div>
+            <div class="Void">
+            </div>
         </div>
-        <div class="Studio-Nav Nav-item" onclick="showStudio()">
-            Studio
+        <div id="About">
         </div>
-        <div class="Works-Nav Nav-item" onclick="showWorks()">
-            Works
+        <div id="Studio">
         </div>
-        <div class="Contact-Nav Nav-item" onclick="showContact()">
-            Contact
+        <div id="Works">
         </div>
-        <div class="Title">
-            <img class="Title-Image" src="./image/logo-black.png"/>
+        <div id="Contact">
         </div>
-    </div>
-    <div class="About">
-        About
-    </div>
-    <div class="Studio">
-        Studio
-    </div>
-    <div class="Works">
-        Works
-    </div>
-    <div class="Contact">
-        Contact
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"
     integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 <script src="index.js"></script>
+
 </html>
