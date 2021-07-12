@@ -1,5 +1,4 @@
 .Container {
-  outline: 1px dashed red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,11 +10,10 @@
 }
 
 .Container .Top {
-  outline: 1px dashed red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
+  position: fixed;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -28,7 +26,6 @@
 }
 
 .Container .Top .Nav {
-  outline: 1px dashed red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,12 +36,10 @@
 }
 
 .Container .Top .Nav .Nav-item {
-  outline: 1px dashed red;
   margin-left: 30px;
 }
 
 .Container .Top .Title {
-  outline: 1px dashed red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,37 +50,31 @@
 }
 
 .Container .Top .Title .Title-Image {
-  outline: 1px dashed red;
   height: 22px;
 }
 
 .Container .Top .Void {
-  outline: 1px dashed red;
   width: 33%;
 }
 
 .Container #About {
-  outline: 1px dashed red;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
 }
 
 .Container #Studio {
-  outline: 1px dashed red;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   background: aquamarine;
 }
 
 .Container #Works {
-  outline: 1px dashed red;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   background: burlywood;
 }
 
 .Container #Contact {
-  outline: 1px dashed red;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   background: cadetblue;
