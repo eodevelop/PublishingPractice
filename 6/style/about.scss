@@ -17,19 +17,15 @@
     .Right {
         width: 50%;
         margin-left: 50%;
+        display: flex;
         flex-direction: column;
         background: #e9e8e6;
         overflow: scroll;
         overflow-x: hidden;
-        padding-left: 100px;
-        padding-right: 100px;
-
+        padding: 100px;
+        
         .Right-P {
-            font-size: 15px;
-        }
-
-        .Right-P:nth-child(1) {
-            margin-top: 100px;
+            font-size: 17px;
         }
 
         .Abuot-Right-Image {

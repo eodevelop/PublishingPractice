@@ -1,0 +1,17 @@
+.Works-Container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #e9e8e6;
+    overflow: scroll;
+    overflow-x: hidden;
+
+    padding-left: 20%;
+    padding-right: 20%;
+
+    p {
+        margin-top: 200px;
+        text-align: center;
+        font-size: 17px;
+    }
+}

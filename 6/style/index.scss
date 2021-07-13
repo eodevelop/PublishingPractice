@@ -5,7 +5,7 @@
     
     .Top {
         display: flex;
-        position: fixed;
+        position: absolute;
         justify-content: space-between;
         align-items: center;
         height: 50px;
@@ -42,7 +42,6 @@
 
     #Studio {
         flex-basis: 100%;
-        background: aquamarine;
     }
 
     #Works {

@@ -1,42 +1,62 @@
-.About-Container {
+.Studio-Container {
     height: 100vh;
     display: flex;
+    flex-direction: column;
+    background: #e9e8e6;
+    overflow: scroll;
+    overflow-x: hidden;
 
-    .Left {
-        width: 50%;
-        left: 0px;
-        background: cadetblue;
-        overflow: hidden;
-        margin-top: -350px;
-        position: fixed;
-        .Abuot-Left-Image {
-            width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 17px;
+
+    .Studio-Word-Section {
+        padding-left: 20%;
+        padding-right: 20%;
+        margin-top: 150px;
+        margin-bottom: 150px;
+
+        animation-duration: 1s;
+        animation-name: slidein;
+        min-width: 500px;
+    }
+
+    @keyframes slidein {
+        from {
+            margin-top: -100px;
+        }
+
+        to {
+            margin-top: 150px;
         }
     }
 
-    .Right {
-        width: 50%;
-        margin-left: 50%;
+    .Img-Section1 {
+        display: flex;
         flex-direction: column;
-        background: #e9e8e6;
-        overflow: scroll;
-        overflow-x: hidden;
-        padding-left: 100px;
-        padding-right: 100px;
+        width: 100%;
 
-        .Right-P {
-            font-size: 15px;
-        }
-
-        .Right-P:nth-child(1) {
+        img {
             margin-top: 100px;
-        }
-
-        .Abuot-Right-Image {
-            width: 100%;
+            width: 500px;
+            min-width: 450px;
             height: auto;
-            margin-top: 50px;
-            margin-bottom: 50px;
+        }
+    }
+
+    .Img-Section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+        div {
+            img {
+                margin-top: 100px;
+                width: 500px;
+                min-width: 450px;
+                height: auto;
+            }
         }
     }
 }

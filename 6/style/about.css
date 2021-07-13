@@ -21,6 +21,9 @@
 .About-Container .Right {
   width: 50%;
   margin-left: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -28,16 +31,11 @@
   background: #e9e8e6;
   overflow: scroll;
   overflow-x: hidden;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 100px;
 }
 
 .About-Container .Right .Right-P {
-  font-size: 15px;
-}
-
-.About-Container .Right .Right-P:nth-child(1) {
-  margin-top: 100px;
+  font-size: 17px;
 }
 
 .About-Container .Right .Abuot-Right-Image {
