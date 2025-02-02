@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACb,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,UAAU,EAAE,OAAO;EACnB,QAAQ,EAAE,MAAM;EAChB,UAAU,EAAE,MAAM;EAElB,YAAY,EAAE,GAAG;EACjB,aAAa,EAAE,GAAG;CAOrB;;AAhBD,AAWI,gBAXY,CAWZ,CAAC,CAAC;EACE,UAAU,EAAE,KAAK;EACjB,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,IAAI;CAClB",
-    "sources": [
-        "works.scss"
-    ],
-    "names": [],
-    "file": "works.css"
-}
