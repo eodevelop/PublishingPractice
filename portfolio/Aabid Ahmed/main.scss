@@ -6,6 +6,7 @@
   scrollbar-width: none;
   padding: 0;
   margin: 0;
+  font-family: "Poppins", "Poppins Placeholder", sans-serif;
 }
 
 *::-webkit-scrollbar {
@@ -15,7 +16,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #000;
+  background-color: rgb(21, 19, 18);
   display: flex;
   justify-content: center;
 }
@@ -130,13 +131,12 @@ nav {
   }
 
   .home {
-    background-color: black;
+    background-color: rgb(21, 19, 18);
     color: white;
-    font-family: "Poppins", "Poppins Placeholder", sans-serif;
 
     h1 {
       font-size: 110px;
-      line-height: 100%;
+      line-height: 80%;
       font-weight: 700;
     }
 
@@ -151,6 +151,23 @@ nav {
       color: rgb(153, 143, 143);
       max-width: 480px;
       width: 100%;
+      padding-bottom: 20px;
+    }
+
+    .home-summary {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 40px;
+
+      h3 {
+        font-size: 70px;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+        text-align: left;
+        width: auto;
+      }
     }
   }
 }
