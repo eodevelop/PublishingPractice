@@ -1,3 +1,7 @@
+## 원본 사이트 주소
+
+- https://sawad.framer.website/
+
 ## Postion : Sticky 에 대한 이해
 
 - 부모가 무조건 높이를 가지고 있어야 한다.
