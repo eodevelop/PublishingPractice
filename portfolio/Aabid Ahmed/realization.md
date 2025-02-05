@@ -2,6 +2,10 @@
 
 - https://sawad.framer.website/
 
+## CSS
+
+- 셀렉터 쓸때 전체에 적용할게 아니라면 '>'를 꼭 써주자.
+
 ## Postion : Sticky 에 대한 이해
 
 - 부모가 무조건 높이를 가지고 있어야 한다.
