@@ -6,6 +6,7 @@
   scrollbar-width: none;
   padding: 0;
   margin: 0;
+  line-height: 1;
   font-family: "Poppins", "Poppins Placeholder", sans-serif;
 }
 
@@ -113,6 +114,13 @@ nav {
         flex-direction: row;
         justify-content: center;
         color: rgb(106, 107, 110);
+        gap: 20px;
+
+        i {
+          font-size: 20px;
+          font-weight: 600;
+          cursor: pointer;
+        }
       }
     }
   }
@@ -133,6 +141,7 @@ nav {
   .home {
     background-color: rgb(21, 19, 18);
     color: white;
+    width: 100%;
 
     > h1 {
       font-size: 110px;
@@ -162,6 +171,7 @@ nav {
       gap: 40px;
 
       > div {
+        margin-top: 30px;
         display: flex;
         flex-direction: column;
         gap: 0;
@@ -171,10 +181,65 @@ nav {
           font-weight: 600;
           letter-spacing: -0.01em;
           text-align: left;
+          line-height: 70px;
+          margin-bottom: 15px;
         }
 
         > span {
           color: rgb(153, 143, 143);
+          margin-bottom: 3px;
+        }
+      }
+    }
+
+    .home-card {
+      margin: 50px 0;
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+      width: 100%;
+
+      div {
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        font-size: 24px;
+        flex-wrap: nowrap;
+        padding: 30px 25px;
+        font-weight: 500;
+
+        i:first-child {
+          font-size: 40px;
+          margin-top: 10px;
+          margin-bottom: 30px;
+        }
+
+        i:last-child {
+          font-size: 30px;
+          margin-top: 30px;
+          margin-bottom: 10px;
+          align-self: flex-end;
+          cursor: pointer;
+        }
+      }
+
+      .home-card-1 {
+        flex: 3;
+        background-color: orange;
+        color: white;
+
+        i:last-child:hover {
+          color: black;
+        }
+      }
+
+      .home-card-2 {
+        flex: 4;
+        background-color: greenyellow;
+        color: black;
+
+        i:last-child:hover {
+          color: white;
         }
       }
     }
