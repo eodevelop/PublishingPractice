@@ -126,6 +126,20 @@ nav {
   }
 }
 
+.title {
+  color: white;
+
+  > h1 {
+    font-size: 110px;
+    line-height: 80%;
+    font-weight: 700;
+  }
+
+  > h1:nth-child(3) {
+    color: rgba(182, 180, 189, 0.2);
+  }
+}
+
 .info {
   background: linear-gradient(to bottom, #fff, #000);
   height: 3000px;
@@ -142,16 +156,6 @@ nav {
     background-color: rgb(21, 19, 18);
     color: white;
     width: 100%;
-
-    > h1 {
-      font-size: 110px;
-      line-height: 80%;
-      font-weight: 700;
-    }
-
-    > h1:nth-child(3) {
-      color: rgba(182, 180, 189, 0.2);
-    }
 
     > span {
       font-size: 18px;
@@ -243,5 +247,9 @@ nav {
         }
       }
     }
+  }
+
+  .projects {
+    background-color: rgb(21, 19, 18);
   }
 }

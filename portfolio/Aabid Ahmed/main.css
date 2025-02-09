@@ -119,6 +119,18 @@ nav > i {
   cursor: pointer;
 }
 
+.title {
+  color: white;
+}
+.title > h1 {
+  font-size: 110px;
+  line-height: 80%;
+  font-weight: 700;
+}
+.title > h1:nth-child(3) {
+  color: rgba(182, 180, 189, 0.2);
+}
+
 .info {
   background: linear-gradient(to bottom, #fff, #000);
   height: 3000px;
@@ -134,14 +146,6 @@ nav > i {
   background-color: rgb(21, 19, 18);
   color: white;
   width: 100%;
-}
-.info .home > h1 {
-  font-size: 110px;
-  line-height: 80%;
-  font-weight: 700;
-}
-.info .home > h1:nth-child(3) {
-  color: rgba(182, 180, 189, 0.2);
 }
 .info .home > span {
   font-size: 18px;
@@ -220,4 +224,7 @@ nav > i {
 }
 .info .home .home-card .home-card-2 i:last-child:hover {
   color: white;
+}
+.info .projects {
+  background-color: rgb(21, 19, 18);
 }/*# sourceMappingURL=main.css.map */
