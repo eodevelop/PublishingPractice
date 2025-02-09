@@ -119,18 +119,6 @@ nav > i {
   cursor: pointer;
 }
 
-.title {
-  color: white;
-}
-.title > h1 {
-  font-size: 110px;
-  line-height: 80%;
-  font-weight: 700;
-}
-.title > h1:nth-child(3) {
-  color: rgba(182, 180, 189, 0.2);
-}
-
 .info {
   background: linear-gradient(to bottom, #fff, #000);
   height: 3000px;
@@ -142,10 +130,23 @@ nav > i {
   flex-direction: column;
   align-items: flex-start;
 }
+.info .title {
+  color: white;
+  margin-top: 20px;
+}
+.info .title > h1 {
+  font-size: 110px;
+  line-height: 80%;
+  font-weight: 700;
+}
+.info .title > h1:nth-child(3) {
+  color: rgba(182, 180, 189, 0.2);
+}
 .info .home {
   background-color: rgb(21, 19, 18);
   color: white;
   width: 100%;
+  margin-bottom: 100px;
 }
 .info .home > span {
   font-size: 18px;
@@ -227,4 +228,53 @@ nav > i {
 }
 .info .projects {
   background-color: rgb(21, 19, 18);
+}
+.info .projects .projects-card-section {
+  margin: 50px 0;
+  padding: 0 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.info .projects .projects-card-section .projects-card {
+  display: flex;
+  gap: 25px;
+}
+.info .projects .projects-card-section .projects-card .projects-card-img {
+  flex: 1;
+  width: 130px;
+  height: 150px;
+  background-color: rgb(52, 92, 167);
+  border-radius: 16px;
+}
+.info .projects .projects-card-section .projects-card .projects-card-content {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.info .projects .projects-card-section .projects-card .projects-card-content > h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+.info .projects .projects-card-section .projects-card .projects-card-content > span {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(153, 143, 143);
+}
+.info .projects .projects-card-section .projects-card i {
+  flex: 1;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  align-self: flex-start;
+  cursor: pointer;
+  color: rgb(106, 107, 110);
+}
+.info .projects .projects-card-section .projects-card i:hover {
+  color: white;
 }/*# sourceMappingURL=main.css.map */
