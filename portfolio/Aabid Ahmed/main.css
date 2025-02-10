@@ -347,4 +347,37 @@ nav > i {
   font-size: 18px;
   font-weight: 400;
   color: rgb(153, 143, 143);
+}
+
+.thoughts {
+  color: rgb(153, 143, 143);
+  font-size: 18px;
+  font-weight: 400;
+}
+.thoughts .thoughts-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.thoughts .thoughts-section .thoughts-section-content {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.thoughts .thoughts-section .thoughts-section-content:hover {
+  border-radius: 16px;
+  background-color: rgb(71, 69, 68);
+}
+.thoughts .thoughts-section .thoughts-section-content-text h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+.thoughts .thoughts-section .thoughts-section-content-text-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

@@ -394,3 +394,43 @@ nav {
     }
   }
 }
+
+.thoughts {
+  color: rgb(153, 143, 143);
+  font-size: 18px;
+  font-weight: 400;
+
+  .thoughts-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .thoughts-section-content {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      padding: 20px;
+      flex-wrap: wrap;
+    }
+
+    .thoughts-section-content:hover {
+      border-radius: 16px;
+      background-color: rgb(71, 69, 68);
+    }
+
+    .thoughts-section-content-text {
+      h3 {
+        font-size: 24px;
+        font-weight: 600;
+        color: white;
+      }
+    }
+
+    .thoughts-section-content-text-footer {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+  }
+}
