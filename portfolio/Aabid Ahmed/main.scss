@@ -434,3 +434,63 @@ nav {
     }
   }
 }
+
+.contact {
+  color: rgb(153, 143, 143);
+  font-size: 14px;
+  font-weight: 400;
+
+  .contact-section {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+  .contact-section-row {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .contact-section-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  button {
+    width: 100%;
+    background-color: rgb(112, 117, 126);
+    color: white;
+    border-radius: 6px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+  }
+
+  input[type="text"] {
+    height: 40px;
+    border-radius: 6px;
+    padding: 10px 12px;
+    border: none;
+    background-color: rgb(36, 37, 39);
+    font-size: 15px;
+    color: rgb(153, 143, 143);
+  }
+
+  textarea {
+    border-radius: 6px;
+    padding: 10px 12px;
+    border: none;
+    background-color: rgb(36, 37, 39);
+    font-size: 15px;
+    height: 100px;
+    resize: none;
+    overflow-y: auto;
+    color: rgb(153, 143, 143);
+  }
+}
