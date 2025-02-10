@@ -120,7 +120,7 @@ nav > i {
 }
 
 .info {
-  background: linear-gradient(to bottom, #fff, #000);
+  background-color: rgb(21, 19, 18);
   height: 3000px;
   width: 65%;
   display: flex;
@@ -145,12 +145,12 @@ nav > i {
 .info .title > h1:nth-child(3) {
   color: rgba(182, 180, 189, 0.2);
 }
-.info .home {
-  background-color: rgb(21, 19, 18);
+
+.home {
   color: white;
   width: 100%;
 }
-.info .home > span {
+.home > span {
   font-size: 18px;
   font-weight: 400;
   line-height: 140%;
@@ -159,20 +159,20 @@ nav > i {
   width: 100%;
   padding-bottom: 20px;
 }
-.info .home .home-summary {
+.home .home-summary {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   gap: 40px;
 }
-.info .home .home-summary > div {
+.home .home-summary > div {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
   gap: 0;
 }
-.info .home .home-summary > div > h3 {
+.home .home-summary > div > h3 {
   font-size: 70px;
   font-weight: 600;
   letter-spacing: -0.01em;
@@ -180,18 +180,17 @@ nav > i {
   line-height: 70px;
   margin-bottom: 15px;
 }
-.info .home .home-summary > div > span {
-  color: rgb(153, 143, 143);
+.home .home-summary > div > span {
   margin-bottom: 3px;
 }
-.info .home .home-card {
+.home .home-card {
   margin: 50px 0;
   display: flex;
   flex-direction: row;
   gap: 40px;
   width: 100%;
 }
-.info .home .home-card div {
+.home .home-card div {
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -200,38 +199,36 @@ nav > i {
   padding: 30px 25px;
   font-weight: 500;
 }
-.info .home .home-card div i:first-child {
+.home .home-card div i:first-child {
   font-size: 40px;
   margin-top: 10px;
   margin-bottom: 30px;
 }
-.info .home .home-card div i:last-child {
+.home .home-card div i:last-child {
   font-size: 30px;
   margin-top: 30px;
   margin-bottom: 10px;
   align-self: flex-end;
   cursor: pointer;
 }
-.info .home .home-card .home-card-1 {
+.home .home-card .home-card-1 {
   flex: 3;
   background-color: orange;
   color: white;
 }
-.info .home .home-card .home-card-1 i:last-child:hover {
+.home .home-card .home-card-1 i:last-child:hover {
   color: black;
 }
-.info .home .home-card .home-card-2 {
+.home .home-card .home-card-2 {
   flex: 4;
   background-color: greenyellow;
   color: black;
 }
-.info .home .home-card .home-card-2 i:last-child:hover {
+.home .home-card .home-card-2 i:last-child:hover {
   color: white;
 }
-.info .projects {
-  background-color: rgb(21, 19, 18);
-}
-.info .projects .projects-card-section {
+
+.projects .projects-card-section {
   margin: 50px 0;
   padding: 0 20px;
   width: 100%;
@@ -240,35 +237,35 @@ nav > i {
   justify-content: center;
   gap: 30px;
 }
-.info .projects .projects-card-section .projects-card {
+.projects .projects-card-section .projects-card {
   display: flex;
   gap: 25px;
 }
-.info .projects .projects-card-section .projects-card .projects-card-img {
+.projects .projects-card-section .projects-card .projects-card-img {
   flex: 1;
   width: 130px;
   height: 150px;
-  background-color: rgb(52, 92, 167);
+  background-color: rgb(112, 117, 126);
   border-radius: 16px;
 }
-.info .projects .projects-card-section .projects-card .projects-card-content {
+.projects .projects-card-section .projects-card .projects-card-content {
   flex: 3;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 10px;
 }
-.info .projects .projects-card-section .projects-card .projects-card-content > h3 {
+.projects .projects-card-section .projects-card .projects-card-content > h3 {
   font-size: 24px;
   font-weight: 600;
   color: white;
 }
-.info .projects .projects-card-section .projects-card .projects-card-content > span {
+.projects .projects-card-section .projects-card .projects-card-content > span {
   font-size: 18px;
   font-weight: 400;
   color: rgb(153, 143, 143);
 }
-.info .projects .projects-card-section .projects-card i {
+.projects .projects-card-section .projects-card i {
   flex: 1;
   font-size: 30px;
   margin-top: 30px;
@@ -277,6 +274,33 @@ nav > i {
   cursor: pointer;
   color: rgb(106, 107, 110);
 }
-.info .projects .projects-card-section .projects-card i:hover {
+.projects .projects-card-section .projects-card i:hover {
+  color: white;
+}
+
+.experience {
+  color: rgb(153, 143, 143);
+  font-size: 18px;
+  font-weight: 400;
+}
+.experience .experience-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.experience .experience-section .experience-section-content {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
+.experience .experience-section .experience-section-content:hover {
+  border-radius: 16px;
+  background-color: rgb(71, 69, 68);
+}
+.experience .experience-section .experience-section-content-text h3 {
+  font-size: 24px;
+  font-weight: 600;
   color: white;
 }/*# sourceMappingURL=main.css.map */
