@@ -342,3 +342,55 @@ nav {
     }
   }
 }
+
+.tools {
+  color: rgb(153, 143, 143);
+  font-size: 18px;
+  font-weight: 400;
+
+  .tools-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .tools-section-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    gap: 20px;
+    margin: 0;
+    padding: 10px 15px;
+    border-radius: 16px;
+
+    .tools-section-card-img {
+      width: 80px;
+      height: 80px;
+      background-color: rgb(112, 117, 126);
+      border-radius: 16px;
+    }
+  }
+
+  .tools-section-card:hover {
+    background-color: rgb(71, 69, 68);
+  }
+
+  .tools-section-card-content {
+    > h3 {
+      font-size: 20px;
+      font-weight: 500;
+      color: white;
+      margin-bottom: 10px;
+    }
+
+    > span {
+      font-size: 18px;
+      font-weight: 400;
+      color: rgb(153, 143, 143);
+    }
+  }
+}
