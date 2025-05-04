@@ -60,6 +60,7 @@ class CoovBioLogin extends StatelessWidget {
                   child: Text("나중에 하기"),
                   style: TextButton.styleFrom(
                     padding: EdgeInsets.symmetric(vertical: 16),
+                    foregroundColor: Colors.blue,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(8),
                       side: BorderSide(
